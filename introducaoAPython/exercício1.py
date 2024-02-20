@@ -18,11 +18,11 @@ elif player1 == "PAPEL" and player2 == "PEDRA":
     print("Jogador 1 venceu!")
 elif player1 == player2:
     print('EMPATE!')
-if player2 == "PEDRA" and player1 == "TESOURA":
-    print("Jogador 1 venceu!")
+elif player2 == "PEDRA" and player1 == "TESOURA":
+    print("Jogador 2 venceu!")
 elif player2 == "TESOURA" and player1 == "PAPEL":
-    print("Jogador 1 venceu! ")
+    print("Jogador 2 venceu! ")
 elif player2 == "PAPEL" and player1 == "PEDRA":
-    print("Jogador 1 venceu!")
+    print("Jogador 2 venceu!")
 else: 
     print("Algum jogador fez uma jogada errada!")
