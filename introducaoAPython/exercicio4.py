@@ -21,6 +21,10 @@ def insertionSort(valores):
 
 valores = [1, 7, 2, 10, 9, 5, 3, 4, 6, 8]
 
+# OUTRAS LISTAS PARA TESTES 
+#valores = [30, 5, -6, 70, 5,22,90,-9,21,10]
+#valores = [3, 0, 30, 10, -39, 0, 18, 3, 19,8]
+
 valores_ordenado = insertionSort(valores)
 
 print(valores_ordenado)
